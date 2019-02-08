@@ -11,7 +11,7 @@ Feature: Buy an article with two years extended guarantee from www.falabella.com
         When I look for "ps4" product 
         And I select the first product result from the suggestions list
         And I should see a new page with "ps4" product detail info
-        And I select "1" years of extented guarantee
+        And I select "2" years of extented guarantee
         And I add the selected product to LA BOLSA
         And I increase the product quantity to "2"
         And I click on the button IR A COMPRAR
