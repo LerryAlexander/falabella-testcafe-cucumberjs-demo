@@ -21,7 +21,7 @@ This is a demonstration of integration [TestCafé](https://github.com/DevExpress
 3. When the download completes unzip the file
 4. The unziped file contains all the contents of this repo
 5. Make sure [Node.js](https://nodejs.org/) is installed
-6. Open a terminal command pront
+6. Open a terminal command prompt
 7. Navigate to the root of the repo
 8. Execute the `npm install` command
 
