@@ -1,0 +1,30 @@
+{
+  "name": "falabella-testcafe-cucumber-project",
+  "version": "0.1.0",
+  "description": "A sample demo to show an automation test for buying an article with extended guarantee by navigating through falaballa website",
+  "author": "Lerry Ortiz <lerry.ortiz@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Lerry/falabella-testcafe-cucumber-project"
+  },
+  "scripts": {
+    "debug": "node --inspect=1337 --debug-brk --nolazy node_modules/cucumber/bin/cucumber-js --tags @debug --format json:./reports/report.json",
+    "test": "./node_modules/.bin/cucumber-js.cmd",
+    "test-report": "./node_modules/.bin/cucumber-js.cmd --format json:./reports/report.json",
+    "test-chrome": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
+    "test-ie": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\"",
+    "test-chrome-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"chrome\\\"}\"",
+    "test-ie-report": "./node_modules/.bin/cucumber-js.cmd  --format json:./reports/report.json --world-parameters \"{\\\"browser\\\": \\\"ie\\\"}\"",
+    "test-chrome-headless": "./node_modules/.bin/cucumber-js.cmd  --world-parameters \"{\\\"browser\\\": \\\"chrome:headless\\\"}\""
+  },
+  "dependencies": {
+    "base64-img": "^1.0.4",
+    "cucumber": "^4.2.1",
+    "eslint": "^4.19.1",
+    "npm": "^6.0.0",
+    "testcafe": "^0.22.0"
+  },
+  "devDependencies": {
+    "eslint-config-google": "^0.9.1"
+  }
+}
