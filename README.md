@@ -28,7 +28,7 @@ This is a demonstration of integration [TestCafé](https://github.com/DevExpress
 ## Running tests
 
 ### Windows
-Tests can be run either on Chrome or Internet Explorer browsers by executing `npm run test-chrome` or `npm run test-ie` commands in command prompt. 
+Tests can be run either on **Chrome** or **Internet Explorer** browsers by executing `npm run test-chrome` or `npm run test-ie` commands in command prompt. 
 
 Note: test can also run by default on Chrome typing either `.\node_modules\.bin\cucumber-js.cmd` or `npm test` commands in command prompt. 
 
